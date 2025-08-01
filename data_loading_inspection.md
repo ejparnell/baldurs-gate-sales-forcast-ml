@@ -936,9 +936,9 @@ Understanding your domain helps tailor the inspection process to identify the mo
 
 **📊 Expected Table Structure**:
 
-- Core entities: customers, orders, products, order_items
-- Supporting tables: categories, reviews, inventory
-- Key relationships: customer_id, product_id, order_id
+- Core entities: `customers`, `orders`, `products`, `order_items`
+- Supporting tables: `categories`, `reviews`, `inventory`
+- Key relationships: `customer_id`, `product_id`, `order_id`
 
 **🔍 Business Validation Focus**:
 
@@ -996,9 +996,9 @@ for check, result in validation_results.items():
 
 **📊 Expected Table Structure**:
 
-- Core entities: transactions, accounts, customers
-- Supporting tables: product_types, branches, regulations
-- Key relationships: account_id, customer_id, transaction_id
+- Core entities: `transactions`, `accounts`, `customers`
+- Supporting tables: `product_types`, `branches`, `regulations`
+- Key relationships: `account_id`, `customer_id`, `transaction_id`
 
 **🔍 Business Validation Focus**:
 
@@ -1018,9 +1018,9 @@ for check, result in validation_results.items():
 
 **📊 Expected Table Structure**:
 
-- Core entities: sensor_readings, sensors, locations
-- Supporting tables: device_types, maintenance_logs
-- Key relationships: sensor_id, location_id, device_id
+- Core entities: `sensor_readings`, `sensors`, `locations`
+- Supporting tables: `device_types`, `maintenance_logs`
+- Key relationships: `sensor_id`, `location_id`, `device_id`
 
 **🔍 Business Validation Focus**:
 
@@ -1035,6 +1035,8 @@ for check, result in validation_results.items():
 - Sensor calibration drift over time
 - Missing data during maintenance windows
 - Network connectivity gaps in readings
+
+**Note**: These domain-specific guidelines are starting points. Always adapt them based on your unique business context and data characteristics.
 
 ### 🔍 Quality Assurance and Validation
 
