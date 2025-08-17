@@ -280,12 +280,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🔗 Related Projects
-
-- [Fantasy Retail Analytics](https://github.com/ejparnell) - Additional fantasy domain projects
-- [ML Pipeline Templates](https://github.com/ejparnell) - Reusable ML workflows
-- [Data Science Guides](https://github.com/ejparnell) - Educational resources
-
----
-
 *Built with ❤️ for the data science and fantasy gaming communities*
